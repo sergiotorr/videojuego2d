@@ -1,0 +1,29 @@
+body {
+    background-color: hsl(198, 81%, 58%);
+}
+
+#gameCanvas {
+    background-image: url('assets/background.jpg');
+    background-size: cover;
+    border: 2px solid #000;
+}
+
+.instructions {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: #0073ffcc;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+body, #gameCanvas {
+    cursor: url('/assets/cursor.icon'), auto;
+}
+#score {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #FFD700; /* Color dorado */
+    margin-top: 10px;
+}

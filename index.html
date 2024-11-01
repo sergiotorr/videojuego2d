@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videojuego 2D</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="text-center p-4 bg-dark text-white">
+        <h1>Nuestro Videojuego 2D</h1>
+        <img src="assets/icon.png" alt="Juego" style="max-width: 100px;">
+        <div id="score">Puntuación: 0</div>
+    </header>
+
+    <!-- Main -->
+    <main class="d-flex justify-content-center align-items-center">
+        <canvas id="gameCanvas"></canvas>
+    </main>
+
+    <!-- Footer -->
+    <footer class="text-center p-4 bg-dark text-white">
+        <p>Creado por Gonzalez Mayorga Emanuel y Torres Martínez Sergio Enrique</p>
+    </footer>
+
+    <!-- Instrucciones -->
+    <div class="instructions">
+        <p>¡Haz clic en los peces para capturarlos y ganar puntos!</p>
+    </div>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
